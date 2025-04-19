@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class form_Setting extends AppCompatActivity {
 
-    TextView textView6, txtvietnamese, txtEnglish;
+    TextView khunglanguage, txtvietnamese, txtEnglish, closelanguage, linelanguage;
     Button circleon_Notification,circleoff_Notification,khungon_Notification,khungoff_Notification,
             back,
             circleoff_Darkmode,circleon_Darkmode,khungoff_Darkmode,khungon_Darkmode;
@@ -38,8 +38,14 @@ public class form_Setting extends AppCompatActivity {
         khungoff_Darkmode = (Button) findViewById(R.id.khung_Darkmode_off);
         khungon_Darkmode = (Button) findViewById(R.id.khung_Darkmode_on);
 
-        vietnamdopen = (Button) findViewById(R.id.btnVietnamese);
-        englishdopen = (Button) findViewById(R.id.btnEnglish);
+        vietnamdopen = (Button) findViewById(R.id.openvietnamese);
+        englishdopen = (Button) findViewById(R.id.openEnglish);
+        closelanguage = (TextView) findViewById(R.id.closelanguage);
+        linelanguage = (TextView) findViewById(R.id.linelanguage);
+        khunglanguage = (TextView) findViewById(R.id.khunglanguage);
+        txtvietnamese = (TextView) findViewById(R.id.Vietnamese);
+        txtEnglish = (TextView) findViewById(R.id.English);
+        cdlangue = (Button) findViewById(R.id.cdlangue);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,21 +67,8 @@ public class form_Setting extends AppCompatActivity {
         circleon_Darkmode.setOnClickListener(v -> offDarkmode());
         khungon_Darkmode.setOnClickListener(v -> offDarkmode());
 
-        englishdopen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                vietnamdopen.setVisibility(View.INVISIBLE);
-                englishdopen.setVisibility(View.VISIBLE);
-            }
-        });
-
-        vietnamdopen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                englishdopen.setVisibility(View.INVISIBLE);
-                vietnamdopen.setVisibility(View.VISIBLE);
-            }
-        });
+        cdlangue.setOnClickListener(v -> onsettingLanguage());
+        closelanguage.setOnClickListener(v -> offsettingLanguage());
 
     }
     private void OnNotification() {
@@ -107,5 +100,25 @@ public class form_Setting extends AppCompatActivity {
         circleoff_Darkmode.setVisibility(View.VISIBLE);
         khungoff_Darkmode.setVisibility(View.VISIBLE);
 
+    }
+
+    private void onsettingLanguage() {
+        khunglanguage.setVisibility(View.VISIBLE);
+        closelanguage.setVisibility(View.VISIBLE);
+        linelanguage.setVisibility(View.VISIBLE);
+        txtvietnamese.setVisibility(View.VISIBLE);
+        txtEnglish.setVisibility(View.VISIBLE);
+        vietnamdopen.setVisibility(View.VISIBLE);
+        englishdopen.setVisibility(View.VISIBLE);
+    }
+
+    private void offsettingLanguage() {
+        khunglanguage.setVisibility(View.INVISIBLE);
+        closelanguage.setVisibility(View.INVISIBLE);
+        linelanguage.setVisibility(View.INVISIBLE);
+        txtvietnamese.setVisibility(View.INVISIBLE);
+        txtEnglish.setVisibility(View.INVISIBLE);
+        vietnamdopen.setVisibility(View.INVISIBLE);
+        englishdopen.setVisibility(View.INVISIBLE);
     }
 }
