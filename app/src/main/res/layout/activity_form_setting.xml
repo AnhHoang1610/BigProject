@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F4F2F2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form_Setting">
+
+    <Button
+        android:id="@+id/btnbackSetting"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="#00000000"
+        android:text=""
+        app:icon="@drawable/left"
+        android:gravity="start"
+        app:iconSize="35dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/black"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:text="Bật/Tắt thông báo"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="114dp"
+        android:text="Cài đặt riêng tư"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/khung_notification_off"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:backgroundTint="#D9D9D9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circle_notification_off"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="54dp"
+        android:text=""
+        android:backgroundTint="#9C9393"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/khung_notification_on"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:text=""
+        android:backgroundTint="#70E46C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circle_notification_on"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        android:text=""
+        android:backgroundTint="#D8D3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cdriengtu"
+        android:layout_width="370dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        app:iconGravity="end"
+        app:icon="@drawable/right"
+        app:iconTint="@color/black"
+        app:iconSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cdlangue"
+        android:layout_width="370dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        app:icon="@drawable/right"
+        app:iconGravity="end"
+        app:iconSize="35dp"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="151dp"
+        android:background="@color/black"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="163dp"
+        android:text="Ngôn ngữ"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtdarkmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="212dp"
+        android:text="Chế độ tối"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/black"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/khung_Darkmode_off"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:backgroundTint="#D9D9D9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circle_Darkmode_off"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="54dp"
+        android:text=""
+        android:backgroundTint="#9C9393"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/khung_Darkmode_on"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="invisible"
+        android:text=""
+        android:backgroundTint="#70E46C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circle_Darkmode_on"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        android:text=""
+        android:backgroundTint="#D8D3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="220dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="201dp"
+        android:text=""
+
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="220dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="256dp"
+        android:background="#ADADAD"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvietnamese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="215dp"
+        android:text="Tếng Việt"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="270dp"
+        android:text="Tếng Anh"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVietnamese"
+        android:layout_width="202dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:icon="@drawable/done"
+        app:iconTint="@color/black"
+        app:iconGravity="end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="202dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:icon="@drawable/done"
+        app:iconTint="@color/black"
+        app:iconGravity="end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F1F1F1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="85dp"
+        android:background="#FDEBEC"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSearch_comfim"
+        android:layout_width="60dp"
+        android:layout_height="42.5dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#bf9590"
+        android:text=""
+        android:textAlignment="center"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/search"
+        app:iconGravity="textEnd"
+        app:iconSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsearch_searchform"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#FDEBEC"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/search"
+        app:iconGravity="top"
+        app:iconSize="48dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btncart_searchform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="82dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_cart"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnuser_searchform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="328dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_user"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnhome_searchform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="164dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_home"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnmail_searchform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="246dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_chat"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittextSearch"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/radius_edittext"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        app:circularflow_defaultRadius="10dp"
+        app:circularflow_radiusInDP="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:layout_width="415dp"
+        android:layout_height="522dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnback_searchform"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:visibility="invisible"
+        android:backgroundTint="#00FFFFFF"
+        android:textAlignment="center"
+        app:icon="@drawable/left"
+        app:iconTint="#bf9590"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
