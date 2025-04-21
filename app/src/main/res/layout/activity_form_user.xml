@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F1F1F1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="44dp"
+        android:background="#FDEBEC"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsearch_userform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:layout_marginBottom="44dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/search"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btncart_userform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_cart"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnuser_userform"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginBottom="57dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/dark_user"
+        app:iconGravity="top"
+        app:iconSize="48dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnhome_userform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_home"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnmail_userform"
+        android:layout_width="82dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/light_chat"
+        app:iconGravity="textStart"
+        app:iconSize="40dp"
+        app:iconTint="#FF7973"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="0dp"
+        android:background="#FDEBEC"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:backgroundTint="#00FFFFFF"
+        app:icon="@drawable/setting"
+        app:iconGravity="top"
+        app:iconTint="#777"
+        app:iconSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="168dp"
+        android:backgroundTint="@color/white"
+        android:text=""
+        app:cornerRadius="50dp"
+        app:icon="@drawable/light_user"
+        app:iconTint="@color/black"
+        app:iconGravity="top"
+        app:iconSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtName_userform"
+        android:layout_width="194dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="188dp"
+        android:text="User Name"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
